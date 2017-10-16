@@ -9,7 +9,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | --- | --- | --- | --- |
 | Analytics | [titanium-firebase-analytics](https://github.com/hansemannn/titanium-firebase-analytics) | ✅ | ❌ |
 | Storage | [titanium-firebase-storage](https://github.com/hansemannn/titanium-firebase-storage) | ✅ | ❌ |
-| Cloud Messaging | TBA | ❌ | ❌ |
+| Cloud Messaging | [titanium-firebase-cloud-messaging](https://github.com/hansemannn/titanium-firebase-cloud-messaging) | 🔄 | ❌ |
 | Crash Reporting | TBA | ❌ | ❌ |
 | AdWords | TBA | ❌ | ❌ |
 

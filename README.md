@@ -20,7 +20,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 ## Known issues
 Right now, you need to at least have the `Analytics` module included in order to call `configure()` on it. I wanted to
 keep the different Firebase features separated into own modules to not blow up the app-size, but as `Analytics` depends
-on the `FirebaseCore` framework, which makes it hard to distribute the core as an own module. If you have an idea on how to
+on the `FirebaseCore` framework, it makes it hard to distribute the core as an own module. If you have an idea on how to
 solve that, let me know!
 
 ## Contributors

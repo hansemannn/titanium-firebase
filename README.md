@@ -14,7 +14,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Storage | [titanium-firebase-storage](https://github.com/hansemannn/titanium-firebase-storage) | ✅ | ❌ |
 | Cloud Messaging | [titanium-firebase-cloud-messaging](https://github.com/hansemannn/titanium-firebase-cloud-messaging) | ✅ | ❌ |
 | Crash Reporting | [titanium-firebase-crash-reporting](https://github.com/hansemannn/titanium-firebase-crash-reporting) | ✅ | ❌ |
-| Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | 🔄 | ❌ |
+| Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ❌ |
 | AdWords | TBA | ❌ | ❌ |
 
 ## Known issues

@@ -1,3 +1,6 @@
+
+<img src="./titanium-firebase-logo@2x.png" height="200" alt="Firebase in Axway Titanium" />
+
 # Firebase in Axway Titanium
 This project will contain all Firebase-related modules for Analytics, Cloud-Messaging, Authentication, Firestore etc.
 

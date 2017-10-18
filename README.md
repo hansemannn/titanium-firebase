@@ -14,6 +14,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 
 | Feature | Repository | iOS | Android |
 | --- | --- | --- | --- |
+| Core | [titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core) | ✅ | ❌ |
 | Analytics | [titanium-firebase-analytics](https://github.com/hansemannn/titanium-firebase-analytics) | ✅ | ❌ |
 | Storage | [titanium-firebase-storage](https://github.com/hansemannn/titanium-firebase-storage) | ✅ | ❌ |
 | Cloud Messaging | [titanium-firebase-cloud-messaging](https://github.com/hansemannn/titanium-firebase-cloud-messaging) | ✅ | ❌ |
@@ -21,11 +22,9 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ❌ |
 | AdWords | TBA | ❌ | ❌ |
 
-## Known issues
-Right now, you need to at least have the `Analytics` module included in order to call `configure()` on it. I wanted to
-keep the different Firebase features separated into own modules to not blow up the app-size, but as `Analytics` depends
-on the `FirebaseCore` framework, it makes it hard to distribute the core as an own module. If you have an idea on how to
-solve that, let me know!
+## Notes
+In order to use any of the modules, the `titanium-firebase-core` module needs to be included in the project in order
+to call the `configure` method. 
 
 ## Contributors
 * Please see https://github.com/hansemannn/titanium-firebase/graphs/contributors

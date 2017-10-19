@@ -20,7 +20,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Cloud Messaging | [titanium-firebase-cloud-messaging](https://github.com/hansemannn/titanium-firebase-cloud-messaging) | ✅ | ❌ |
 | Crash Reporting | [titanium-firebase-crash-reporting](https://github.com/hansemannn/titanium-firebase-crash-reporting) | ✅ | ❌ |
 | Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ❌ |
-| Performance | TBA | ❌ | ❌ |
+| Performance | [titanium-firebase-performance](https://github.com/hansemannn/titanium-firebase-performance) | ✅ | ❌ |
 | Remote Config | TBA | ❌ | ❌ |
 | Realtime Database | TBA | ❌ | ❌ |
 

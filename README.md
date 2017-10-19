@@ -20,7 +20,9 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Cloud Messaging | [titanium-firebase-cloud-messaging](https://github.com/hansemannn/titanium-firebase-cloud-messaging) | ✅ | ❌ |
 | Crash Reporting | [titanium-firebase-crash-reporting](https://github.com/hansemannn/titanium-firebase-crash-reporting) | ✅ | ❌ |
 | Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ❌ |
-| AdWords | TBA | ❌ | ❌ |
+| Performance | TBA | ❌ | ❌ |
+| Remote Config | TBA | ❌ | ❌ |
+| Realtime Database | TBA | ❌ | ❌ |
 
 ## Notes
 In order to use any of the modules, the `titanium-firebase-core` module needs to be included in the project in order

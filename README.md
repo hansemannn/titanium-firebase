@@ -14,8 +14,8 @@ Feel free to take over a new feature by creating the module and making a pull-re
 
 | Feature | Repository | iOS | Android |
 | --- | --- | --- | --- |
-| Core | [titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core) | ✅ | 🔄 |
-| Analytics | [titanium-firebase-analytics](https://github.com/hansemannn/titanium-firebase-analytics) | ✅ | ❌ |
+| Core | [titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core) | ✅ | ✅ |
+| Analytics | [titanium-firebase-analytics](https://github.com/hansemannn/titanium-firebase-analytics) | ✅ | 🔄 |
 | Storage | [titanium-firebase-storage](https://github.com/hansemannn/titanium-firebase-storage) | ✅ | ❌ |
 | Cloud Messaging | [titanium-firebase-cloud-messaging](https://github.com/hansemannn/titanium-firebase-cloud-messaging) | ✅ | ❌ |
 | Crash Reporting | [titanium-firebase-crash-reporting](https://github.com/hansemannn/titanium-firebase-crash-reporting) | ✅ | ❌ |

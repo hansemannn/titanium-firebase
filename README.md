@@ -22,7 +22,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Crash Reporting | [titanium-firebase-crash-reporting](https://github.com/hansemannn/titanium-firebase-crash-reporting) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-crash-reporting/releases) |
 | Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-auth/releases) |
 | Performance | [titanium-firebase-performance](https://github.com/hansemannn/titanium-firebase-performance) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-performance/releases) |
-| Remote Config | TBA | ❌ | ❌ | TBA |
+| Remote Config | [titanium-firebase-config](https://github.com/hansemannn/titanium-firebase-config) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-config/releases) |
 | Realtime Database | TBA | ❌ | ❌ | TBA |
 
 ## Notes

@@ -7,7 +7,7 @@ This project will contain all Firebase-related modules for Analytics, Cloud-Mess
 
 ## Requirements
 - [x] iOS: Titanium SDK **6.2.0+**
-- [x] Android: Titanium SDK **6.3.1+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
+- [x] Android: Titanium SDK **6.0.0+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
 
 ## Features
 The list of supported features will be updated once a new feature is added to the list. 

@@ -9,13 +9,17 @@ This project will contain all Firebase-related modules for Analytics, Cloud-Mess
 - [x] iOS: Titanium SDK **6.2.0+**
 - [x] Android: Titanium SDK **6.3.0+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
 
-## ⚠️ Android Note
+## ⚠️ Android Notes
 When being using used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
-you have to use at least Titanium SDK 7.0.0 for Android which resolved duplicate dependencies for you. 
+you have to use at least Titanium SDK 7.0.0 for Android which resolves duplicate dependencies for you. 
 
 Latest module versions that support 7.0.0 and have Ti.PlayServices included:
   - [Ti.Map 4.0.0](https://github.com/appcelerator-modules/ti.map/releases/tag/android-4.0.0)
   - [Ti.Admob 4.0.0](https://github.com/appcelerator-modules/ti.admob/releases/tag/android-4.0.0)
+  
+Not using 7.0.0 because of modules that are not updated so far? Update open source modules quickly by using
+the [Android 64-Bit Migration Guide](http://docs.appcelerator.com/platform/latest/#!/guide/Android_Module_Upgrade_Guide).
+
 
 ## Features
 The list of supported features will be updated once a new feature is added to the list. 

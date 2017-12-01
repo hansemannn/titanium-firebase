@@ -7,7 +7,15 @@ This project will contain all Firebase-related modules for Analytics, Cloud-Mess
 
 ## Requirements
 - [x] iOS: Titanium SDK **6.2.0+**
-- [x] Android: Titanium SDK **6.0.0+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
+- [x] Android: Titanium SDK **6.3.0+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
+
+## ⚠️ Android Note
+When being using used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
+you have to use at least Titanium SDK 7.0.0 for Android which resolved duplicate dependencies for you. 
+
+Latest module versions that support 7.0.0 and have Ti.PlayServices included:
+  - [Ti.Map 4.0.0](https://github.com/appcelerator-modules/ti.map/releases/tag/android-4.0.0)
+  - [Ti.Admob 4.0.0](https://github.com/appcelerator-modules/ti.admob/releases/tag/android-4.0.0)
 
 ## Features
 The list of supported features will be updated once a new feature is added to the list. 
@@ -17,7 +25,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | ------- | ---------- | --- | ------- | -------- |
 | Core | [titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-core/releases) |
 | Analytics | [titanium-firebase-analytics](https://github.com/hansemannn/titanium-firebase-analytics) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-analytics/releases) |
-| Storage | [titanium-firebase-storage](https://github.com/hansemannn/titanium-firebase-storage) | ✅ | 🔄 | [Download](https://github.com/hansemannn/titanium-firebase-storage/releases) |
+| Storage | [titanium-firebase-storage](https://github.com/hansemannn/titanium-firebase-storage) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-storage/releases) |
 | Cloud Messaging | [titanium-firebase-cloud-messaging](https://github.com/hansemannn/titanium-firebase-cloud-messaging) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-cloud-messaging/releases) |
 | Crash Reporting | [titanium-firebase-crash-reporting](https://github.com/hansemannn/titanium-firebase-crash-reporting) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-crash-reporting/releases) |
 | Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-auth/releases) |

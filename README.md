@@ -10,16 +10,15 @@ This project will contain all Firebase-related modules for Analytics, Cloud-Mess
 - [x] Android: Titanium SDK **6.3.0+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
 
 ## ⚠️ Android Notes
-When being using used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
+If this module is used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
 you have to use at least Titanium SDK 7.0.0 for Android which resolves duplicate dependencies for you. 
 
 Latest module versions that support 7.0.0 and have Ti.PlayServices included:
   - [Ti.Map 4.0.0](https://github.com/appcelerator-modules/ti.map/releases/tag/android-4.0.0)
   - [Ti.Admob 4.0.0](https://github.com/appcelerator-modules/ti.admob/releases/tag/android-4.0.0)
   
-Not using 7.0.0 because of modules that are not updated so far? Update open source modules quickly by using
+You are not using 7.0.0 because of modules that are not updated so far? Update open source modules quickly by using
 the [Android 64-Bit Migration Guide](http://docs.appcelerator.com/platform/latest/#!/guide/Android_Module_Upgrade_Guide).
-
 
 ## Features
 The list of supported features will be updated once a new feature is added to the list. 
@@ -35,7 +34,6 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-auth/releases) |
 | Performance | [titanium-firebase-performance](https://github.com/hansemannn/titanium-firebase-performance) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-performance/releases) |
 | Remote Config | [titanium-firebase-config](https://github.com/hansemannn/titanium-firebase-config) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-config/releases) |
-| Realtime Database | TBA | ❌ | ❌ | TBA |
 
 ## Notes
 In order to use any of the modules, the `titanium-firebase-core` module needs to be included in the project in order

@@ -9,6 +9,16 @@ This project will contain all Firebase-related modules for Analytics, Cloud-Mess
 - [x] iOS: Titanium SDK **6.2.0+**
 - [x] Android: Titanium SDK **7.0.0+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
 
+## Installation
+
+1. Download the core-module [titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core/releases)
+2. Download the desired feature-module(s) from the below list
+3. Unpack them to your project directory
+4. Configure your Firebase project
+ - iOS: Download the `GoogleConfig-Info.plist` from your project and copy it to `Resources` (classic) or `app/assets/iphone` (Alloy)
+ - Android: Download the `google-services.json` and copy it to `Resources` (classic) or `app/assets/iphone` (Alloy)
+5. You are good to go!
+
 ## ⚠️ Android Notes
 If this module is used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
 you have to use at least Titanium SDK 7.0.0 for Android which resolves duplicate dependencies for you. 

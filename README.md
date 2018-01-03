@@ -2,7 +2,7 @@
 <p align="center"><img src="./titanium-firebase-logo@2x.png" height="200" alt="Firebase in Axway Titanium" /></p>
 
 
-# Firebase in Axway Titanium
+# Firebase in Appcelerator Titanium
 This project will contain all Firebase-related modules for Analytics, Cloud-Messaging, Authentication, Firestore etc.
 
 ## Requirements
@@ -17,7 +17,12 @@ This project will contain all Firebase-related modules for Analytics, Cloud-Mess
 4. Configure your Firebase project
  - iOS: Download the `GoogleConfig-Info.plist` from your project and copy it to `Resources` (classic) or `app/assets/iphone` (Alloy)
  - Android: Download the `google-services.json` and copy it to `Resources` (classic) or `app/assets/iphone` (Alloy)
-5. You are good to go!
+5. Require the your modules and call the `configure` method to configure your Firebase application:
+```js
+var FirebaseCore = require('firebase.core');
+FirebaseCore.configure();
+```
+6. You are good to go!
 
 ## ⚠️ Android Notes
 If this module is used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
@@ -44,10 +49,6 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Crash Reporting | [titanium-firebase-crash-reporting](https://github.com/hansemannn/titanium-firebase-crash-reporting) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-crash-reporting/releases) |
 | Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-auth/releases) |
 | Remote Config | [titanium-firebase-config](https://github.com/hansemannn/titanium-firebase-config) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-config/releases) |
-
-## Notes
-In order to use any of the modules, the `titanium-firebase-core` module needs to be included in the project in order
-to call the `configure` method. 
 
 ## Contributors
 * Please see https://github.com/hansemannn/titanium-firebase/graphs/contributors

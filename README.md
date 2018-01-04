@@ -44,10 +44,10 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Core | [titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-core/releases) |
 | Analytics | [titanium-firebase-analytics](https://github.com/hansemannn/titanium-firebase-analytics) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-analytics/releases) |
 | Performance | [titanium-firebase-performance](https://github.com/hansemannn/titanium-firebase-performance) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-performance/releases) |
+| Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | 🔄 | [Download](https://github.com/hansemannn/titanium-firebase-auth/releases) |
 | Storage | [titanium-firebase-storage](https://github.com/hansemannn/titanium-firebase-storage) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-storage/releases) |
 | Cloud Messaging | [titanium-firebase-cloud-messaging](https://github.com/hansemannn/titanium-firebase-cloud-messaging) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-cloud-messaging/releases) |
 | Crash Reporting | [titanium-firebase-crash-reporting](https://github.com/hansemannn/titanium-firebase-crash-reporting) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-crash-reporting/releases) |
-| Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-auth/releases) |
 | Remote Config | [titanium-firebase-config](https://github.com/hansemannn/titanium-firebase-config) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-config/releases) |
 
 ## Contributors

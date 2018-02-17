@@ -55,7 +55,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Remote Config | [titanium-firebase-config](https://github.com/hansemannn/titanium-firebase-config) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-config/releases) |
 | Database | [titanium-firebase-database](https://github.com/hansemannn/titanium-firebase-database) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-database/releases) |
 
-* = Basic support, more based on community contributions
+`*` = Basic support, more based on community contributions
 
 ## Contributors
 * Please see https://github.com/hansemannn/titanium-firebase/graphs/contributors

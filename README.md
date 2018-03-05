@@ -19,7 +19,7 @@ This project will contain all Firebase-related modules for Analytics, Cloud-Mess
 2. Download the desired feature-module(s) from the below list
 3. Unpack them to your project directory
 4. Configure your Firebase project
- - iOS: Download the `GoogleConfig-Info.plist` from your project and copy it to `Resources` (classic) or `app/assets/iphone` (Alloy)
+ - iOS: Download the `GoogleService-Info.plist` from your project and copy it to `Resources` (classic) or `app/assets/iphone` (Alloy)
  - Android: Download the `google-services.json` and copy it to `Resources` (classic) or `app/assets/android` (Alloy)
 5. Require the your modules and call the `configure` method to configure your Firebase application:
 ```js

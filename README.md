@@ -6,7 +6,7 @@
 This project will contain all Firebase-related modules for Analytics, Cloud-Messaging, Authentication, Firestore etc.
 
 ## Requirements
-- [x] iOS: Titanium SDK **6.2.0+**
+- [x] iOS: Titanium SDK **6.3.0+**
 - [x] Android: Titanium SDK **7.0.0+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
 
 ## Demo

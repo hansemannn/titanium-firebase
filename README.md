@@ -45,7 +45,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 
 | Feature | Repository | iOS | Android | Releases |
 | ------- | ---------- | --- | ------- | -------- |
-| Core | [titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-core/releases) |
+| **Core** (required) | **[titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core)** | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-core/releases) |
 | Analytics | [titanium-firebase-analytics](https://github.com/hansemannn/titanium-firebase-analytics) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-analytics/releases) |
 | Performance | [titanium-firebase-performance](https://github.com/hansemannn/titanium-firebase-performance) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-performance/releases) |
 | Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-auth/releases) |

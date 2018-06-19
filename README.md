@@ -28,17 +28,6 @@ FirebaseCore.configure();
 ```
 6. You are good to go!
 
-## ⚠️ Android Notes
-If this module is used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
-you have to use at least Titanium SDK 7.0.0 for Android which resolves duplicate dependencies for you. 
-
-Latest module versions that support 7.0.0 and have Ti.PlayServices included:
-  - [Ti.Map 4.0.0](https://github.com/appcelerator-modules/ti.map/releases/tag/android-4.0.0)
-  - [Ti.Admob 4.0.0](https://github.com/appcelerator-modules/ti.admob/releases/tag/android-4.0.0)
-  
-You are not using 7.0.0 because of modules that are not updated so far? Update open source modules quickly by using
-the [Android 64-Bit Migration Guide](http://docs.appcelerator.com/platform/latest/#!/guide/Android_Module_Upgrade_Guide).
-
 ## Features
 The list of supported features will be updated once a new feature is added to the list. 
 Feel free to take over a new feature by creating the module and making a pull-request to update this readme.
@@ -54,6 +43,17 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Crash Reporting | [titanium-firebase-crash-reporting](https://github.com/hansemannn/titanium-firebase-crash-reporting) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-crash-reporting/releases) |
 | Remote Config | [titanium-firebase-config](https://github.com/hansemannn/titanium-firebase-config) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-config/releases) |
 | Database | [titanium-firebase-database](https://github.com/hansemannn/titanium-firebase-database) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-database/releases) |
+
+## ⚠️ Android Notes
+If this module is used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
+you have to use at least Titanium SDK 7.0.0 for Android which resolves duplicate dependencies for you. 
+
+Latest module versions that support 7.0.0 and have Ti.PlayServices included:
+  - [Ti.Map 4.0.0](https://github.com/appcelerator-modules/ti.map/releases/tag/android-4.0.0)
+  - [Ti.Admob 4.0.0](https://github.com/appcelerator-modules/ti.admob/releases/tag/android-4.0.0)
+  
+You are not using 7.0.0 because of modules that are not updated so far? Update open source modules quickly by using
+the [Android 64-Bit Migration Guide](http://docs.appcelerator.com/platform/latest/#!/guide/Android_Module_Upgrade_Guide).
 
 ## Contributors
 * Please see https://github.com/hansemannn/titanium-firebase/graphs/contributors

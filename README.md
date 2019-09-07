@@ -19,8 +19,19 @@ This project will contain all Firebase-related modules for Analytics, Cloud-Mess
 2. Download the desired feature-module(s) from the below list
 3. Unpack them to your project directory
 4. Configure your Firebase project
- - iOS: Download the `GoogleService-Info.plist` from your project and copy it to `Resources` (classic) or `app/assets/iphone` (Alloy)
- - Android: Download the `google-services.json` and copy it to `Resources` (classic) or `app/assets/android` (Alloy)
+	- <strong>iOS</strong>:
+		- Download the `GoogleService-Info.plist` from your project and copy it to `[application_name]/Resources/iphone/` (classic) or `[application_name]/app/assets/iphone` (Alloy)
+	- <strong>Android</strong>:
+		- Download the `google-services.json` and copy it to `[application_name]/Resources/android/` (classic) or `[application_name]/app/assets/android/` (Alloy)
+		- Create the follwing XML file `[application_name]/[app*]/platform/android/res/values/strings.xml` containing:
+	```javascript
+	<?xml version="1.0" encoding="UTF-8"?>
+	<resources>
+		<string name="google_app_id">1:11111111111:android:aaaaaaaaa</string>
+	</resources>
+	```
+	<small>* Alloy</small>
+
 5. Require the your modules and call the `configure` method to configure your Firebase application:
 ```js
 var FirebaseCore = require('firebase.core');
@@ -29,7 +40,7 @@ FirebaseCore.configure();
 6. You are good to go!
 
 ## Features
-The list of supported features will be updated once a new feature is added to the list. 
+The list of supported features will be updated once a new feature is added to the list.
 Feel free to take over a new feature by creating the module and making a pull-request to update this readme.
 
 | Feature | Repository | iOS | Android | Releases |
@@ -46,18 +57,34 @@ Feel free to take over a new feature by creating the module and making a pull-re
 
 ## ⚠️ Android Notes
 If this module is used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
-you have to use at least Titanium SDK 7.0.0 for Android which resolves duplicate dependencies for you. 
+you have to use at least Titanium SDK 7.0.0 for Android which resolves duplicate dependencies for you.
 
 Latest module versions that support 7.0.0 and have Ti.PlayServices included:
   - [Ti.Map 4.0.0](https://github.com/appcelerator-modules/ti.map/releases/tag/android-4.0.0)
   - [Ti.Admob 4.0.0](https://github.com/appcelerator-modules/ti.admob/releases/tag/android-4.0.0)
-  
+
 You are not using 7.0.0 because of modules that are not updated so far? Update open source modules quickly by using
 the [Android 64-Bit Migration Guide](http://docs.appcelerator.com/platform/latest/#!/guide/Android_Module_Upgrade_Guide).
+
+### Disable Analytics
+
+By default Firebase trys to use Analytics and you might see the erros in your log:
+```bash
+[ERROR] FA: AppMeasurementReceiver not registered/enabled
+[ERROR] FA: AppMeasurementService not registered/enabled
+[ERROR] FA: Uploading is not possible. App measurement disabled
+```
+To disable them you can add the follwing elements to the `<application>` part of your tiapp.xml:
+```xml
+<application>
+	<meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+	<meta-data android:name="google_analytics_adid_collection_enabled" android:value="false"/>
+</application>
+```
 
 ## Contributors
 * Please see https://github.com/hansemannn/titanium-firebase/graphs/contributors
 * Interested in contributing? Read the [contributors/committer's](https://wiki.appcelerator.org/display/community/Home) guide.
 
-## License 
+## License
 Apache 2.0

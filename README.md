@@ -19,8 +19,19 @@ This project will contain all Firebase-related modules for Analytics, Cloud-Mess
 2. Download the desired feature-module(s) from the below list
 3. Unpack them to your project directory
 4. Configure your Firebase project
- - iOS: Download the `GoogleService-Info.plist` from your project and copy it to `Resources` (classic) or `app/assets/iphone` (Alloy)
- - Android: Download the `google-services.json` and copy it to `Resources` (classic) or `app/assets/android` (Alloy)
+	- <strong>iOS</strong>:
+		- Download the `GoogleService-Info.plist` from your project and copy it to `[application_name]/Resources/iphone/` (classic) or `[application_name]/app/assets/iphone` (Alloy)
+	- <strong>Android</strong>:
+		- Download the `google-services.json` and copy it to `[application_name]/Resources/android/` (classic) or `[application_name]/app/assets/android/` (Alloy)
+		- Create the follwing XML file `[application_name]/[app*]/platform/android/res/values/strings.xml` containing:
+	```javascript
+	<?xml version="1.0" encoding="UTF-8"?>
+	<resources>
+		<string name="google_app_id">1:11111111111:android:aaaaaaaaa</string>
+	</resources>
+	```
+	<small>* Alloy</small>
+
 5. Require the your modules and call the `configure` method to configure your Firebase application:
 ```js
 var FirebaseCore = require('firebase.core');
@@ -75,6 +86,22 @@ Latest module versions that support 7.0.0 and have Ti.PlayServices included:
 
 You are not using 7.0.0 because of modules that are not updated so far? Update open source modules quickly by using
 the [Android 64-Bit Migration Guide](http://docs.appcelerator.com/platform/latest/#!/guide/Android_Module_Upgrade_Guide).
+
+### Disable Analytics
+
+By default Firebase trys to use Analytics and you might see the erros in your log:
+```bash
+[ERROR] FA: AppMeasurementReceiver not registered/enabled
+[ERROR] FA: AppMeasurementService not registered/enabled
+[ERROR] FA: Uploading is not possible. App measurement disabled
+```
+To disable them you can add the follwing elements to the `<application>` part of your tiapp.xml:
+```xml
+<application>
+	<meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+	<meta-data android:name="google_analytics_adid_collection_enabled" android:value="false"/>
+</application>
+```
 
 ## Contributors
 * Please see https://github.com/hansemannn/titanium-firebase/graphs/contributors

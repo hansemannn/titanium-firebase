@@ -4,7 +4,7 @@
 # Firebase in Appcelerator Titanium
 This project will contain all Firebase-related modules for Analytics, Cloud-Messaging, Authentication, Firestore etc.
 
-# Supporting this effort
+## Supporting this effort
 
 The whole Firebase support in Titanium is developed and maintained by the community (`@hansemannn` and `@m1ga`). To keep
 this project maintained and be able to use the latest Firebase SDK's, please see the "Sponsor" button of this repository,

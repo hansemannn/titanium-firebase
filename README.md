@@ -1,9 +1,14 @@
 
 <p align="center"><img src="./titanium-firebase-logo@2x.png" height="200" alt="Firebase in Axway Titanium" /></p>
 
-
 # Firebase in Appcelerator Titanium
 This project will contain all Firebase-related modules for Analytics, Cloud-Messaging, Authentication, Firestore etc.
+
+# Supporting this effort
+
+The whole Firebase support in Titanium is developed and maintained by the community (`@hansemannn` and `@m1ga`). To keep
+this project maintained and be able to use the latest Firebase SDK's, please see the "Sponsor" button of this repository,
+thank you!
 
 ## Requirements
 - [x] iOS: Titanium SDK **6.3.0+**

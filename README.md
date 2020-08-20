@@ -10,9 +10,17 @@ The whole Firebase support in Titanium is developed and maintained by the commun
 this project maintained and be able to use the latest Firebase SDK's, please see the "Sponsor" button of this repository,
 thank you!
 
+## Premium supporter
+
+### Centreville Tech
+
+Centreville Tech are strategic design+development advisors based in central Alabama.
+
+<img src="https://hans-knoechel.de/.github/sponsor-centreville-tech.png" alt="Centreville Tech" width="200" />
+
 ## Requirements
-- [x] iOS: Titanium SDK **6.3.0+**
-- [x] Android: Titanium SDK **7.0.0+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
+- [x] iOS: Titanium SDK **8.0.0+**
+- [x] Android: Titanium SDK **9.0.0+** and [Ti.PlayServices](https://github.com/appcelerator-modules/ti.playservices)
 
 ## Demo
 

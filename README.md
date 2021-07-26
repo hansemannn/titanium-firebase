@@ -77,6 +77,7 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Performance | [titanium-firebase-performance](https://github.com/hansemannn/titanium-firebase-performance) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-performance/releases) |
 | Authentication | [titanium-firebase-auth](https://github.com/hansemannn/titanium-firebase-auth) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-auth/releases) |
 | Cloud Messaging | [titanium-firebase-cloud-messaging](https://github.com/hansemannn/titanium-firebase-cloud-messaging) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-cloud-messaging/releases) |
+| In-App Messaging | [titanium-firebase-in-app-messaging](https://github.com/hansemannn/titanium-firebase-in-app-messaging) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-in-app-messaging/releases) |
 | Crashlytics | [titanium-crashlytics](https://github.com/hansemannn/titanium-crashlytics) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-crashlytics/releases) |
 | Remote Config | [titanium-firebase-config](https://github.com/hansemannn/titanium-firebase-config) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-config/releases) |
 | Storage | [titanium-firebase-storage](https://github.com/hansemannn/titanium-firebase-storage) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-storage/releases) |

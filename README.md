@@ -28,7 +28,7 @@ Centreville Tech are strategic design+development advisors based in central Alab
 
 ## Installation
 
-1. Download the core-module [titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core/releases)
+1. Download the core-module [titanium-firebase-core](https://github.com/hansemannn/titanium-firebase-core/releases) - <strong>only needed for iOS</strong>
 2. Download the desired feature-module(s) from the below list
 3. Unpack them to your project directory
 4. Configure your Firebase project
@@ -45,26 +45,6 @@ FirebaseCore.configure();
 ```
 6. You are good to go!
 
-## Android notes
-
-For Android apps it is best to create a XML file at `platform/android/res/values/strings.xml` and place your configuration there:
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <! -- Present in all applications -->
-    <string name="google_app_id" translatable="false">xxx</string>
-    <! -- Present in applications with the appropriate services configured -->
-    <string name="gcm_defaultSenderId" translatable="false">xxx</string>
-	<string name="default_web_client_id" translatable="false">xxx</string>
-	<string name="firebase_database_url" translatable="false">xxx</string>
-	<string name="google_api_key" translatable="false">xxx</string>
-	<string name="google_crash_reporting_api_key" translatable="false">xxx</string>
-	<string name="project_id" translatable="false">xxx</string>
-</resources>
-```
-
-Use the values from the `google-services.json`.
 
 ## Features
 The list of supported features will be updated once a new feature is added to the list.
@@ -84,15 +64,9 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | Database | [titanium-firebase-database](https://github.com/hansemannn/titanium-firebase-database) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-database/releases) |
 
 ## ⚠️ Android Notes
-If this module is used together with other modules that use the Google Play Services (e.g. Ti.Map or Ti.Admob)
-you have to use at least Titanium SDK 7.0.0 for Android which resolves duplicate dependencies for you.
 
-Latest module versions that support 7.0.0 and have Ti.PlayServices included:
-  - [Ti.Map 4.0.0](https://github.com/appcelerator-modules/ti.map/releases/tag/android-4.0.0)
-  - [Ti.Admob 4.0.0](https://github.com/appcelerator-modules/ti.admob/releases/tag/android-4.0.0)
+The `titanium-firebase-core` module is not required for Android anymore. If you use it it will add `AdMob` as a dependency which is found by the Play-Store even if you don't use it. So if you don't need it you don't include `titanium-firebase-core` into your project. The config from `google-services.json` is automatically included by gradle.
 
-You are not using 7.0.0 because of modules that are not updated so far? Update open source modules quickly by using
-the [Android 64-Bit Migration Guide](http://docs.appcelerator.com/platform/latest/#!/guide/Android_Module_Upgrade_Guide).
 
 ### Disable Analytics
 

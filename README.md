@@ -35,7 +35,7 @@ Centreville Tech are strategic design+development advisors based in central Alab
 	- <strong>iOS</strong>:
 		- Download the `GoogleService-Info.plist` from your project and copy it to `[application_name]/Resources/iphone/` (classic) or `[application_name]/app/assets/iphone` (Alloy)
 	- <strong>Android</strong>:
-		- Download the `google-services.json` and copy it to `[application_name]/Resources/android/` (classic) or `[application_name]/app/platform/android/` (Alloy)
+		- Download the `google-services.json` and copy it to `[application_name]/platform/android/` (classic) or `[application_name]/app/platform/android/` (Alloy)
 
 
 5. Require the your modules and call the `configure` method to configure your Firebase application:

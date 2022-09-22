@@ -60,9 +60,9 @@ Feel free to take over a new feature by creating the module and making a pull-re
 | In-App Messaging | [titanium-firebase-in-app-messaging](https://github.com/hansemannn/titanium-firebase-in-app-messaging) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-in-app-messaging/releases) |
 | Crashlytics | [titanium-crashlytics](https://github.com/hansemannn/titanium-crashlytics) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-crashlytics/releases) |
 | Remote Config | [titanium-firebase-config](https://github.com/hansemannn/titanium-firebase-config) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-config/releases) |
+| Firestore | [titanium-firebase-firestore](https://github.com/hansemannn/titanium-firebase-firestore) | ✅ | ✅ | [Download](https://github.com/hansemannn/titanium-firebase-firestore/releases) |
 | Storage | [titanium-firebase-storage](https://github.com/hansemannn/titanium-firebase-storage) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-storage/releases) |
 | Database | [titanium-firebase-database](https://github.com/hansemannn/titanium-firebase-database) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-database/releases) |
-| Firestore | [titanium-firebase-firestore](https://github.com/hansemannn/titanium-firebase-firestore) | ✅ | ❌ | [Download](https://github.com/hansemannn/titanium-firebase-firestore/releases) |
 
 ## ⚠️ Android Notes
 
